@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Sign In</title>
+    <link rel="stylesheet" href="/CSS/signIn.css">
+</head>
+<body>
+    <div class="signInBox">
+        <form class="form" action="">
+            <div id="firstInputContainer">
+                <div id="firstNormContainer">
+                    <input id="firstNorm" type="text" placeholder="Email or Phone Number">
+                </div>
+
+                <div id="firstErrorContainer">
+                    <input id="firstError" type="text" placeholder="Email or Phone Number">
+                    <p>This field is either void or incorrect</p>
+                </div>
+            </div>
+            
+            <div id="PinContainer">
+                <div id="PinNormContainer">
+                    <input id="PinNorm" class="pin" type="password" placeholder="Enter Your Pin">
+                </div>
+
+                <div id="PinErrorContainer">
+                    <input id="PinError" class="pin" type="password" placeholder="Enter Your Pin">
+                    <p>This field is either void or incorrect</p>
+                </div>
+            </div>
+
+
+            <div class="btn">
+                <!-- <a id="submitBTN" type="button"> <button type="button" class="logIn">Log in</button></a> -->
+                <button id="submitBTN" type="button" class="logIn">Log in</button>
+                <!-- <button id="submitBTN" type="button" class="validate">Validate with Google</button> -->
+            </div>
+        </form>
+
+        <a class="fPass" href="">Forgotten Password?</a>
+
+        <hr>
+
+        <a class="createNew" href="/HTML/SignUp.html">Create new account</a>
+        <!-- <button class="createNew">Create new account</button> -->
+
+        <p><span>Create a Page </span>for a celebrity, brand or business.</p>
+    </div>
+
+    <!-- <p>Create a Page for a celebrity, brand or business.</p> -->
+    <script src="/JS/signIn.js"></script>
+</body>
+</html>
